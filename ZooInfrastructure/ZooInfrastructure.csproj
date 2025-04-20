@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Infrastructure зависит только от Domain и (если нужно) от Application -->
+    <ProjectReference Include="..\ZooDomain\ZooDomain.csproj" />
+    <ProjectReference Include="..\ZooApplication\ZooApplication.csproj" />
+  </ItemGroup>
+</Project>

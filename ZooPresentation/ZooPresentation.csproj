@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- (опционально) чтобы не мелькали старые MSB3106-->
+    <NoWarn>$(NoWarn);MSB3106</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ZooApplication\ZooApplication.csproj" />
+    <ProjectReference Include="..\ZooDomain\ZooDomain.csproj" />
+    <ProjectReference Include="..\ZooInfrastructure\ZooInfrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Вот единственный внешний пакет, собранный для .NET 7 -->
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,71 @@
+﻿<Properties StartupConfiguration="{4749C0A9-C3E8-49CA-8081-EE84EE2821C9}|Default">
+  <MonoDevelop.Ide.ItemProperties.ZooPresentation PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ZooTest FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ZooPresentation/Program.cs">
+    <Files>
+      <File FileName="ZooDomain/Enum/Gender.cs" />
+      <File FileName="ZooDomain/Enum/HealthStatus.cs" />
+      <File FileName="ZooDomain/Food.cs" />
+      <File FileName="ZooDomain/Excep.cs" />
+      <File FileName="ZooDomain/IDomainEvent.cs" />
+      <File FileName="ZooDomain/Entity.cs" />
+      <File FileName="ZooDomain/Actions/EnclosureCleanedEvent.cs" />
+      <File FileName="ZooDomain/Actions/FeedingTimeEvent.cs" />
+      <File FileName="ZooDomain/Entities/Enclosure.cs" />
+      <File FileName="ZooDomain/Entities/Animal.cs" />
+      <File FileName="ZooDomain/Entities/FeedingSchedule.cs" />
+      <File FileName="ZooDomain/Enum/EnclosureType.cs" />
+      <File FileName="ZooApplication/Interfaces/IAnimalRepository.cs" />
+      <File FileName="ZooApplication/Interfaces/IEnclosureRepository.cs" />
+      <File FileName="ZooApplication/Interfaces/IFeedingScheduleRepository.cs" />
+      <File FileName="ZooApplication/DTOs/TransferAnimalRequest.cs" />
+      <File FileName="ZooApplication/DTOs/FeedingRequest.cs" />
+      <File FileName="ZooApplication/DTOs/ZooStatisticsDto.cs" />
+      <File FileName="ZooApplication/Services/IAnimalTransferService.cs" />
+      <File FileName="ZooApplication/Services/AnimalTransferService.cs" />
+      <File FileName="ZooApplication/Services/IFeedingOrganizationService.cs" />
+      <File FileName="ZooApplication/Services/FeedingOrganizationService.cs" />
+      <File FileName="ZooApplication/Services/IZooStatisticsService.cs" />
+      <File FileName="ZooApplication/Services/ZooStatisticsService.cs" />
+      <File FileName="ZooInfrastructure/Repositories/InMemoryAnimalRepository.cs" />
+      <File FileName="ZooInfrastructure/Repositories/InMemoryEnclosureRepository.cs" />
+      <File FileName="ZooInfrastructure/Repositories/InMemoryFeedingScheduleRepository.cs" />
+      <File FileName="ZooPresentation/Program.cs" Line="4" Column="32" />
+      <File FileName="ZooPresentation/Controllers/AnimalsController.cs" />
+      <File FileName="ZooPresentation/DTOs/CreateAnimalDto.cs" />
+      <File FileName="ZooPresentation/DTOs/CreateEnclosureDto.cs" />
+      <File FileName="ZooPresentation/Controllers/EnclosuresController.cs" />
+      <File FileName="ZooPresentation/Controllers/FeedingSchedulesController.cs" />
+      <File FileName="ZooPresentation/Controllers/StatisticsController.cs" />
+      <File FileName="ZooPresentation/Properties/launchSettings.json" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ZooHW2" expanded="True">
+            <Node name="ZooApplication" expanded="True">
+              <Node name="DTOs" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="ZooDomain" expanded="True">
+              <Node name="Enum" expanded="True" />
+            </Node>
+            <Node name="ZooInfrastructure" expanded="True" />
+            <Node name="ZooPresentation" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
